@@ -1,0 +1,23 @@
+{
+  "name": "search-sort-js",
+  "version": "1.0.0",
+  "description": "Two functions named search and sort for personal use only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashank19342/create-typescript-library.git"
+  },
+  "keywords": [
+    "search",
+    "sort"
+  ],
+  "author": "shax2nk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashank19342/create-typescript-library/issues"
+  },
+  "homepage": "https://github.com/Shashank19342/create-typescript-library#readme"
+}
