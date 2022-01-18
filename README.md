@@ -1,1 +1,0 @@
-# create-typescript-library
