@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sort = void 0;
+exports.search = exports.sort = void 0;
 // function to sort
 function sort(data, sortByColumn, type) {
     if (type == 1) {
@@ -43,3 +43,12 @@ function sort(data, sortByColumn, type) {
     }
 }
 exports.sort = sort;
+function search(data, searchName) {
+    const searchedData = data.filter((val) => {
+        if (val.first_name.toLowerCase().includes(searchName.toLowerCase()) || val.last_name.toLowerCase().includes(searchName.toLowerCase())) {
+            return val;
+        }
+    });
+    return searchedData;
+}
+exports.search = search;
